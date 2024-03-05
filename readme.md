@@ -47,4 +47,4 @@ The artist name is also case sensitive.
 ## Notes
 
 - Make sure the artist name matches exactly what's listed in Spotify.
-- The script will prompt you to authorize access to your Spotify account the first time you run it. The script does not connect to any external database and is all kept locally on your device. Delete `.cache` if you wish to remove your information.
+- The script will prompt you to authorize access to your Spotify account the first time you run it. The script does not connect to any external database and is all kept locally on your device. Delete `.cache` if you wish to remove your information or reauthenticate with Spotify.

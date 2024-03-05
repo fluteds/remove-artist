@@ -25,7 +25,7 @@ def load_spotify_credentials(file_path='config.json'):
 
 def authenticate_spotify(client_id, client_secret):
     """Authenticate with Spotify"""
-    scope = "playlist-modify-private playlist-read-private user-library-read user-library-modify"
+    scope = "playlist-modify-public playlist-modify-private playlist-read-private user-library-read user-library-modify"
     try:
         sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                                        client_secret=client_secret,
